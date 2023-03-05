@@ -7,7 +7,7 @@ Specs : https://github.com/nine1000school/asi-3-23-dev-rest-api-exercise/blob/ma
 - Copy the **.env.dist** and rename it **.env**
 - Fill it with your custom **database info**
 - Also fill it with your custom **JWT SECRET**
-- run npx knex seed:run to create the first user and roles (email: admin@admin.fr password: superAdmin)
+- run **npx knex seed:run** to create the first user and roles (email: admin@admin.fr password: superAdmin)
 
 # Soucis rencontré
 Pour une raison que j'ignore il m'est impossible de récupérer le header et de donc faire fonctionner les vérifications de permissions et le JWT.
